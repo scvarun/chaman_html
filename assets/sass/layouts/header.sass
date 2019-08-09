@@ -3,7 +3,7 @@
  * Variables
  * ===================
  */
-$navbar-height: 100px
+$navbar-height: 150px
 $navbar-logo-height: 60px
 
 /*
@@ -11,10 +11,11 @@ $navbar-logo-height: 60px
  * Styling
  * ===================
  */
-.main-navbar
+#main-navbar
   height: $navbar-height
   padding: 0 5%
   background: none
+  @include position(absolute, 0 0 null 0)
   .navbar-brand
     .navbar-item img
       max-height: $navbar-logo-height

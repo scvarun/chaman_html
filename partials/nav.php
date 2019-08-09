@@ -1,4 +1,4 @@
-<nav class="navbar main-navbar is-transparent" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+<nav id="main-navbar" class="navbar is-transparent is-dark" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
   <div class="navbar-brand">
     <a class="navbar-item" href="index.php">
       <img src="assets/demo/logo.png">
