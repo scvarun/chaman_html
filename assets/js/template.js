@@ -10,6 +10,18 @@
     },
 
     header: function() {
+      this.enableNavToggle();
+    },
+
+    enableNavToggle: function() {
+      var navToggles = document.getElementsByClassName('nav-toggle');
+      _.each(navToggles, function(navToggle) {
+        var target = document.querySelector(navToggle.dataset.target);
+        navToggle.addEventListener('click', function(e) {
+          e.preventDefault();
+          target.classList.toggle('active');
+        });
+      })
     },
 
     sidebar: function() {

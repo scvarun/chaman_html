@@ -30,6 +30,8 @@ enqueue_style( 'custom', $css . '/custom.css', 99 );
 
 // JS
 enqueue_script( 'jquery', $vendors . '/jquery/jquery.min.js' );
+enqueue_script( 'bootstrap', $vendors . '/bootstrap/bootstrap.min.js' );
+enqueue_script( 'popper', $vendors . '/bootstrap/popper.min.js' );
 enqueue_script( 'lodash', $vendors . '/lodash/lodash.min.js' );
 enqueue_script( 'template', $js . '/template.js', 99);
 enqueue_script( 'custom', $js . '/custom.js', 99 );

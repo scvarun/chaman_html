@@ -1,0 +1,11 @@
+/* Border Radius
+=========================*/
+%radius-0, .radius-0
+  border-radius: 0
+%radius-full, .radius-full
+  border-radius: 100%
+
+@for $i from 2 through 20 {
+  %radius-#{$i}, .radius-#{$i}
+    border-radius: #{$i}px
+    overflow: hidden

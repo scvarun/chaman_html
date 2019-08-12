@@ -1,0 +1,35 @@
+/*
+ * --------------------
+ * Header Styling
+ * --------------------
+ */
+$navbar-height: 200px
+$navbar-logo-height: 100px
+
+#main-navbar
+  height: $navbar-height
+  justify-content: space-between
+  padding: 0 5%
+  background: none
+  @include position(absolute, 0 0 null 0)
+  .navbar-brand
+    img
+      max-height: $navbar-logo-height
+  .main-navigation
+    .nav-item
+      padding: 0 2em
+    .nav-link
+      text-transform: uppercase
+      font-weight: 700
+      font-size: 30px
+  &.navbar-dark
+    .navbar-nav .nav-link
+      color: #fff
+
+@media screen and (max-width: map-get($grid-breakpoints, 'lg'))
+  #main-navbar
+    .nav-container.active
+      @include position(fixed, 0)
+      background: red
+      display: block !important
+    
