@@ -3,9 +3,6 @@
  * Header Styling
  * --------------------
  */
-$navbar-height: 200px
-$navbar-logo-height: 100px
-
 #main-navbar
   height: $navbar-height
   justify-content: space-between
@@ -30,6 +27,14 @@ $navbar-logo-height: 100px
   #main-navbar
     .nav-container.active
       @include position(fixed, 0)
-      background: red
-      display: block !important
-    
+      background: $secondary
+      display: flex !important
+      flex-flow: column
+      align-items: flex-start
+      padding: $grid-gutter-width / 2
+      z-index: 100
+      overflow: auto
+    .main-navigation .nav-item
+      @include padding(null 0);
+  body.navigation-overlay
+    overflow: hidden

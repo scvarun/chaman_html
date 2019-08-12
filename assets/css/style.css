@@ -10,6 +10,7 @@
  */
 /* Colors */
 /* Fonts */
+/* Header */
 /*
  * ================================
  * Vendors
@@ -7207,6 +7208,14 @@ h6, .h6 {
 .text-body-color {
   color: #765c4f; }
 
+@media screen and (max-width: 992px) {
+  h1, .h1 {
+    font-size: 5.625rem !important; }
+  h2, .h2 {
+    font-size: 4.5rem !important; }
+  h3, .h3 {
+    font-size: 3.75rem !important; } }
+
 /*
  * ================================
  * Components
@@ -7271,8 +7280,9 @@ h6, .h6 {
   line-height: 1.2em;
   font-weight: normal; }
 
-.testimonial.testimonial-right {
-  flex-flow: row-reverse; }
+@media screen and (min-width: 992px) {
+  .testimonial.testimonial-right {
+    flex-flow: row-reverse; } }
 
 /*
  * ================================
@@ -7311,7 +7321,17 @@ h6, .h6 {
     right: 0;
     bottom: 0;
     left: 0;
-    background: red;
-    display: block !important; } }
+    background: #765c4f;
+    display: flex !important;
+    flex-flow: column;
+    align-items: flex-start;
+    padding: 50px;
+    z-index: 100;
+    overflow: auto; }
+  #main-navbar .main-navigation .nav-item {
+    padding-right: 0;
+    padding-left: 0; }
+  body.navigation-overlay {
+    overflow: hidden; } }
 
 /*# sourceMappingURL=style.css.map */

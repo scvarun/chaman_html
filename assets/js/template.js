@@ -20,6 +20,7 @@
         navToggle.addEventListener('click', function(e) {
           e.preventDefault();
           target.classList.toggle('active');
+          document.body.classList.toggle('navigation-overlay');
         });
       })
     },

@@ -3,12 +3,12 @@
     <img src="assets/img/logo.png">
   </a>
 
-  <a href="javascript:void(0);" class="btn btn-outline-light nav-toggle d-block d-lg-none" data-target="#navigation-1">
+  <a href="javascript:void(0);" class="btn btn-outline-white nav-toggle d-block d-lg-none" data-target="#navigation-1">
     <span class="navbar-toggler-icon"></span>
   </a>
 
   <div class="nav-container d-none d-lg-block" id="navigation-1">
-    <a href="javascript:void(0);" class="btn btn-outline-light nav-toggle d-block d-lg-none" data-target="#navigation-1">
+    <a href="javascript:void(0);" class="btn btn-outline-white nav-toggle d-block d-lg-none align-self-end" data-target="#navigation-1">
       <span class="navbar-toggler-icon"></span>
     </a>
 

@@ -23,19 +23,26 @@ get_header($config);
     </div><!-- /.container-fluid -->
   </section>
 
-  <section  id="home__skull-parallax" 
-            style="
-              background: url('assets/demo/home/skeleton.jpg');
-              background-repeat: no-repeat;
-              padding: 0 0 60vh;
-              background-position: left bottom;">
+  <section  id="home__skull-parallax">
     <div class="container-fluid">
       <div class="row justify-content-end">
-        <div class="col-md-7">
+        <div class="col-lg-7" style="z-index: 10;">
           <h2>&quot;We teach children how to think not what to think&quot;</h2>
-        </div><!-- /.col-md-7 -->
+        </div><!-- /.col-lg-7 -->
       </div><!-- /.row -->
-    </div><!-- /.container -->
+    </div><!-- /.container-fluid -->
+  </section>
+
+  <section  id="home__skull" style="margin-top: -175px;">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-7">
+          <figure>
+            <img src="assets/demo/home/skeleton.jpg" alt="" />
+          </figure>
+        </div><!-- /.col-lg-7 -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
   </section>
 
   <section id="home__philosophy" style="padding: 50px 0 130px">
@@ -54,7 +61,7 @@ get_header($config);
   <section id="home__leadership" style="padding-bottom: 180px">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6" style="background: #ed633c; padding: 70px 70px 80px; margin: 0 90px;">
+        <div class="col-lg-6" style="background: #ed633c; padding: 70px 70px 80px; margin: 0 5%;">
           <figure class="d-block d-lg-none" style="margin: -70px -70px 80px;">
             <img src="assets/demo/home/bubble.jpg" alt="" />
           </figure>
@@ -76,7 +83,7 @@ get_header($config);
         <div class="col" style="padding: 0; background-image: url(assets/demo/home/woman.jpg); background-repeat: no-repeat; background-size: cover;">
         </div><!-- /.col -->
 
-        <div class="col-lg-6" style="background: #20234c; padding: 70px 70px 80px; margin: 0 90px;">
+        <div class="col-lg-6" style="background: #20234c; padding: 70px 70px 80px; margin: 0 5%;">
           <figure class="d-block d-lg-none" style="margin: -70px -70px 80px;">
             <img src="assets/demo/home/woman.jpg" alt="" />
           </figure>
@@ -157,57 +164,65 @@ get_header($config);
       <div class="row">
         <div class="col">
           <h6 class="text-uppercase" style="margin-bottom: 20px">What people say</h6>
-          <blockquote class="row testimonial" style="margin-bottom: 150px">
-            <div class="col-md-7">
+          <blockquote class="row testimonial testimonial-right" style="margin-bottom: 150px">
+            <div class="col-lg-5">
+              <figure>
+                <img src="assets/demo/home/testimonial-1.jpg" alt="Sofia - Year 5 Student" />
+              </figure>
+            </div><!-- /.col-lg-5 -->
+
+            <div class="col-lg-7">
               <h3 class="testimonial-title">"I love starting my day with a history class, it's the best"</h3>
               <h6 class="testimonial-user-info">
                 <span class="testimonial-user-name">Sofia</span> --
                 <span class="testimonial-user-title">Year 5 Student</span>
               </h6>
               <p>Suspendisse potenti. Proin at lectus condimentum, aliquam justo ac, suscipit urna. Proin at ligula porta lacus tempus ullamcorper. Nunc lacus neque, tempor vitae risus eget, porta frigilla nibh.</p>
-            </div><!-- /.col-md-7 -->
-
-            <div class="col-md-5">
-              <figure>
-                <img src="assets/demo/home/testimonial-1.jpg" alt="Sofia - Year 5 Student" />
-              </figure>
-            </div><!-- /.col-md-5 -->
+            </div><!-- /.col-lg-7 -->
           </blockquote><!-- /.testimonial -->
 
-          <blockquote class="row testimonial testimonial-right">
-            <div class="col-md-7">
+          <blockquote class="row testimonial">
+            <div class="col-lg-5">
+              <figure>
+                <img src="assets/demo/home/testimonial-2.jpg" alt=">Albert White - Music Teacher" />
+              </figure>
+            </div><!-- /.col-lg-5 -->
+
+            <div class="col-lg-7">
               <h3 class="testimonial-title">"What I love about my job is triggering curiosity"</h3>
               <h6 class="testimonial-user-info">
                 <span class="testimonial-user-name">Albert White</span> --
                 <span class="testimonial-user-title">Music Teacher</span>
               </h6>
               <p>Suspendisse potenti. Proin at lectus condimentum, aliquam justo ac, suscipit urna. Proin at ligula porta lacus tempus ullamcorper. Nunc lacus neque, tempor vitae risus eget, porta frigilla nibh.</p>
-            </div><!-- /.col-md-7 -->
-
-            <div class="col-md-5">
-              <figure>
-                <img src="assets/demo/home/testimonial-2.jpg" alt=">Albert White - Music Teacher" />
-              </figure>
-            </div><!-- /.col-md-5 -->
+            </div><!-- /.col-lg-7 -->
           </blockquote><!-- /.testimonial -->
         </div><!-- /.col -->
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
   </section>
 
-  <section id="home__admissions" style="background: #ed633c; padding-top: 120px; padding-bottom: 220px">
+  <section id="home__admissions" style="background: #ed633c; padding-top: 120px;">
     <div class="container-fluid">
       <div class="row">
         <div class="col">
           <h6 class="text-uppercase" style="margin-bottom: 20px; color: #e5e5e5">Become a leader</h6>
-          <h2 style="text-align: center; color: #e5e5e5; margin-top: 140px; margin-bottom: 180px; font-size: 125px; line-height: .85">Admissions for 2020<br /> are now open!</h2>
+          <h2 style="z-index: 10; text-align: center; color: #e5e5e5; margin-top: 140px; margin-bottom: 180px; font-size: 125px; line-height: .85">Admissions for 2020<br /> are now open!</h2>
         </div><!-- /.col -->
       </div><!-- /.row -->
 
       <div class="row">
         <div class="col d-flex justify-content-center">
-          <a href="javascript:void(0);" class="btn btn-outline-white text-center" style="font-weight: 500; border-radius: 0; border-width: 3px; padding: 20px 100px; font-size: 30px">See more stories...</a>
+          <a href="javascript:void(0);" class="btn btn-outline-white text-center" style="z-index: 10; font-weight: 500; border-radius: 0; border-width: 3px; padding: 20px 100px; font-size: 30px">See more stories...</a>
         </div>
+      </div><!-- /.row -->
+
+      <div class="row justify-content-center">
+        <div class="col d-flex flex-column align-items-center">
+          <figure style="margin-top: -20%; margin-bottom: -10%; display: inline-block;">
+            <img src="assets/demo/home/ellipse.png" alt="" />
+          </figure>
+        </div><!-- /.col-6 -->
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
   </section>
