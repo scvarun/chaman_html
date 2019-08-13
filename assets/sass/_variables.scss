@@ -5,8 +5,9 @@ $brown: #755c4e;
 $orange: #ec633c;
 $blue: #20234c;
 
-$primary: #ed633c;
-$secondary: #765c4f;
+$primary: $orange;
+$secondary: $blue;
+$tertiary: $brown;
 
 $body-color: #765c4f;
 
@@ -49,3 +50,6 @@ $h6-letter-spacing:           -0.015em;
 /* Header */
 $navbar-height:               200px;
 $navbar-logo-height:          100px;
+
+$sticky-navbar-height:        120px;
+$sticky-logo-height:          60px;

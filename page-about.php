@@ -45,16 +45,16 @@ get_header($config);
       </div><!-- /.row -->
 
       <div class="row justify-content-center">
-        <div class="col-lg-10 d-flex flex-column align-items center">
+        <div class="col-10 d-flex flex-column align-items center">
           <figure style="margin-top: -130px;">
             <img src="assets/demo/about/logo-part-1.png" alt="" />
           </figure>
-          <h1 style="text-transform: uppercase; text-align: center; color: #e5e5e5; margin-top: -280px; margin-bottom: 280px">We</h1>
         </div><!-- /.col -->
       </div><!-- /.row -->
 
-      <div class="row justify-content-end">
+      <div class="row justify-content-end" style="margin-top: -15.452%;">
         <div class="col-lg-7">
+          <h1 style="text-transform: uppercase; color: #e5e5e5; margin-bottom: 30px;">We<br/>Play</h1>
           <p style="color: #e5e5e5;">Duis ut tellus aliquam augue dapibus interdum eget iaculis eros. Nam sed tincidunt lectus, eget porta enim. Sed vehicula porta lacinia. Nam quis dapibus quam venenatis pellentesque sit amet at mauris.</p>
           <p style="color: #e5e5e5;">In a rhoncus enim. Nulla purus nisi posuere ac felis id, dapibus consectetur velit. Donec erat mauris, hendrerit vitae pulvinar sit amet, viverra id enim. Pellentesque habitant morbi tristique senectus  et netus et malesuada.</p>
           <a href="javascript:void(0);" class="btn btn-link" style="color: #e5e5e5; text-decoration: underline; font-weight: bold;">Read more</a>
@@ -64,16 +64,16 @@ get_header($config);
 
     <div class="container-fluid">
       <div class="row no-gutters">
-        <div class="col-lg-5" style="z-index: 0">
+        <div class="col-5" style="z-index: 0">
           <figure style="margin-left: -100px;">
             <img src="assets/demo/about/logo-part-2.png" alt="" />
           </figure>
         </div><!-- /.col-lg-7 -->
       </div><!-- /.row -->
 
-      <div class="row"  style="margin-top: -550px;">
+      <div class="row"  style="margin-top: -27.593%;">
         <div class="col-lg-7">
-          <h1 style="color: #e5e5e5; text-transform: uppercase; margin-bottom: 180px;">We</h1>
+          <h1 style="color: #e5e5e5; text-transform: uppercase; margin-bottom: 30px">We<br />Learn</h1>
           <p style="color: #e5e5e5;">Duis ut tellus aliquam augue dapibus interdum eget iaculis eros. Nam sed tincidunt lectus, eget porta enim. Sed vehicula porta lacinia. Nam quis dapibus quam venenatis pellentesque sit amet at mauris.</p>
           <p style="color: #e5e5e5;">In a rhoncus enim. Nulla purus nisi posuere ac felis id, dapibus consectetur velit. Donec erat mauris, hendrerit vitae pulvinar sit amet, viverra id enim. Pellentesque habitant morbi tristique senectus  et netus et malesuada.</p>
           <a href="javascript:void(0);" class="btn btn-link" style="color: #e5e5e5; text-decoration: underline; font-weight: bold;">Read more</a>
@@ -83,16 +83,45 @@ get_header($config);
 
     <div class="container-fluid">
       <div class="row justify-content-end">
-        <div class="col-lg-5" style="z-index: 0">
+        <div class="col-5" style="z-index: 0">
           <figure style="margin-left: -100px;">
             <img src="assets/demo/about/logo-part-3.png" alt="" />
           </figure>
+        </div><!-- .col-lg-5 -->
+
+        <div class="col-2">
+        </div><!-- /.col-lg-2 -->
+      </div><!-- /.row -->
+
+      <div class="row justify-content-end" style="margin-top: -27%">
+        <div class="col-lg-7">
+          <h1 style="color: #e5e5e5; text-transform: uppercase; margin-bottom: 30px">We<br />Learn</h1>
+          <p style="color: #e5e5e5;">Duis ut tellus aliquam augue dapibus interdum eget iaculis eros. Nam sed tincidunt lectus, eget porta enim. Sed vehicula porta lacinia. Nam quis dapibus quam venenatis pellentesque sit amet at mauris.</p>
+          <p style="color: #e5e5e5;">In a rhoncus enim. Nulla purus nisi posuere ac felis id, dapibus consectetur velit. Donec erat mauris, hendrerit vitae pulvinar sit amet, viverra id enim. Pellentesque habitant morbi tristique senectus  et netus et malesuada.</p>
+          <a href="javascript:void(0);" class="btn btn-link" style="color: #e5e5e5; text-decoration: underline; font-weight: bold;">Read more</a>
         </div><!-- /.col-lg-7 -->
       </div><!-- /.row -->
 
+    </div><!-- /.container-fluid -->
+
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-7">
+        <div class="col-lg-7" style="z-index: 1">
+          <h1 style="color: #e5e5e5; text-transform: uppercase; margin-bottom: 30px">We<br />Learn</h1>
+          <p style="color: #e5e5e5;">Duis ut tellus aliquam augue dapibus interdum eget iaculis eros. Nam sed tincidunt lectus, eget porta enim. Sed vehicula porta lacinia. Nam quis dapibus quam venenatis pellentesque sit amet at mauris.</p>
+          <p style="color: #e5e5e5;">In a rhoncus enim. Nulla purus nisi posuere ac felis id, dapibus consectetur velit. Donec erat mauris, hendrerit vitae pulvinar sit amet, viverra id enim. Pellentesque habitant morbi tristique senectus  et netus et malesuada.</p>
+          <a href="javascript:void(0);" class="btn btn-link" style="color: #e5e5e5; text-decoration: underline; font-weight: bold;">Read more</a>
         </div><!-- /.col-lg-7 -->
+      </div><!-- /.row -->
+
+      <div class="row" style="margin-top: -20%;">
+        <div class="col">
+        </div><!-- /.col -->
+        <div class="col-2">
+          <figure style="margin-left: -100px;">
+            <img src="assets/demo/about/logo-part-4.png" alt="" />
+          </figure>
+        </div><!-- /.col-2 -->
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
   </section>

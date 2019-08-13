@@ -4,13 +4,33 @@
     <img src="assets/img/logo.png" class="regular-logo" alt="" />
   </a>
 
-  <a href="javascript:void(0);" class="btn btn-outline-white nav-toggle d-block d-lg-none" data-target="#navigation-1">
-    <span class="navbar-toggler-icon"></span>
+  <a href="javascript:void(0);" class="nav-toggle d-block d-lg-none" data-target="#navigation-1">
+    Menu
   </a>
 
-  <div class="nav-container d-none d-lg-block" id="navigation-1">
-    <a href="javascript:void(0);" class="btn btn-outline-white nav-toggle d-block d-lg-none align-self-end" data-target="#navigation-1">
-      <span class="navbar-toggler-icon"></span>
+  <div class="nav-container d-none d-lg-block">
+    <ul class="navbar-nav main-navigation">
+      <li class="menu-item nav-item active">
+        <a class="nav-link" href="page-about.php">About</a>
+      </li>
+      <li class="menu-item nav-item d-none">
+        <a class="nav-link" href="javascript:void(0);">Admission</a>
+      </li>
+      <li class="menu-item nav-item d-none">
+        <a class="nav-link" href="javascript:void(0);">Leadership</a>
+      </li>
+      <li class="menu-item nav-item">
+        <a class="nav-link" href="page-stories.php">Stories</a>
+      </li>
+      <li class="menu-item nav-item">
+        <a class="nav-link" href="page-career.php">Career</a>
+      </li>
+    </ul>
+  </div><!-- /.nav-container -->
+
+  <div class="nav-container d-none" id="navigation-1">
+    <a href="javascript:void(0);" class="nav-toggle d-block d-lg-none mb-1" data-target="#navigation-1">
+      <img src="assets/img/mobile-nav-arrow.png" alt="" />
     </a>
 
     <ul class="navbar-nav main-navigation">
@@ -23,8 +43,12 @@
       <li class="menu-item nav-item">
         <a class="nav-link" href="javascript:void(0);">Leadership</a>
       </li>
+      <li class="seperator"></li>
       <li class="menu-item nav-item">
         <a class="nav-link" href="page-stories.php">Stories</a>
+      </li>
+      <li class="menu-item nav-item">
+        <a class="nav-link" href="page-career.php">Career</a>
       </li>
     </ul>
   </div><!-- /.nav-container -->

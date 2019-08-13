@@ -36,7 +36,7 @@ get_header($config);
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-4">
-          <h6>Chaman Bhartiya is a private primary school in Bhartiya City in Bengaluru, India. We open in autumn 2020 - <u>admissions</u> open now!</h6>
+          <h6>Chaman Bhartiya is a private primary school in Bhartiya City in Bengaluru, India. We open in autumn 2020 - <a href="page-admissions.php">admissions</a> open now!</h6>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
@@ -172,7 +172,7 @@ get_header($config);
 
       <div class="row">
         <div class="col d-flex justify-content-center">
-          <a href="javascript:void(0);" class="btn btn-outline-white" style="font-weight: 500; border-radius: 0; border-width: 3px; padding: 20px 100px; font-size: 30px">See more stories...</a>
+          <a href="page-stories.php" class="btn btn-outline-white" style="font-weight: 500; border-radius: 0; border-width: 3px; padding: 20px 100px; font-size: 30px">See more stories...</a>
         </div><!-- /.col -->
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
