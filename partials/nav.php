@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark" id="main-navbar" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-wrapper" id="main-navbar" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
   <a href="index.php" class="navbar-brand">
     <img src="assets/img/logo.png">
   </a>
@@ -14,7 +14,7 @@
 
     <ul class="navbar-nav main-navigation">
       <li class="menu-item nav-item active">
-        <a class="nav-link" href="javascript:void(0);">About</a>
+        <a class="nav-link" href="page-about.php">About</a>
       </li>
       <li class="menu-item nav-item">
         <a class="nav-link" href="javascript:void(0);">Admission</a>
@@ -25,3 +25,5 @@
     </ul>
   </div><!-- /.nav-container -->
 </nav>
+
+<div id="top"></div>

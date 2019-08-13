@@ -10,7 +10,26 @@ get_header($config);
 ?>
 
 <div class="content-wrapper">
-  <section id="home__hero" class="" style="background: url('assets/demo/home/hero.jpg'); background-size: cover; height: 100vh;">
+  <section id="home__hero" class="" style="background: url('assets/demo/home/hero.jpg'); background-size: cover; min-height: 100vh;">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 d-flex align-items-center" style="min-height: 100vh;">
+          <svg id="CHAMAN_LOGO_SVG" xmlns="http://www.w3.org/2000/svg" width="1536" height="854.312" viewBox="0 0 1536 854.312">
+            <g id="Group_8" data-name="Group 8" transform="translate(-120.001 -41.796)">
+              <g id="Group_9" data-name="Group 9" transform="translate(120.001 41.796)">
+                <rect id="Rectangle_17" data-name="Rectangle 17" width="255.187" height="838.285" transform="translate(866.603 9.865)" fill="#eda297"/>
+                <path id="Path_1" data-name="Path 1" d="M142.642,368.514a450.382,450.382,0,0,1,51.16-123.89A401.451,401.451,0,0,1,279.478,144.15q51.162-43.143,121.429-65.337V929.426q-70.266-22.189-121.429-65.337A401.4,401.4,0,0,1,193.8,763.619a450.446,450.446,0,0,1-51.16-123.895,560.835,560.835,0,0,1,0-271.21" transform="translate(-126.001 -75.114)" fill="#ec633c"/>
+                <path id="Path_2" data-name="Path 2" d="M876.21,318.272a182.143,182.143,0,0,1-36.985,55.472,167.779,167.779,0,0,1-55.477,37.6,172.224,172.224,0,0,1-67.8,13.56q-36.986,0-69.035-13.56a174.751,174.751,0,0,1-56.092-37.6,176.684,176.684,0,0,1-37.6-55.472,167.812,167.812,0,0,1-13.561-67.187q0-36.984,13.561-69.035a174.36,174.36,0,0,1,93.691-93.69Q678.963,74.8,715.949,74.8a172.228,172.228,0,0,1,67.8,13.564,167.791,167.791,0,0,1,55.477,37.6A180.068,180.068,0,0,1,876.21,182.05q13.56,32.052,13.56,69.035a167.812,167.812,0,0,1-13.56,67.187" transform="translate(-158.737 -74.796)" fill="#755c4e"/>
+                <path id="Path_3" data-name="Path 3" d="M1755.833,355.995q-16.028,36.37-48.7,64.106t-80.747,44.993q-48.076,17.261-112.183,17.259V84.167q64.106,0,112.183,17.259t80.747,45q32.669,27.736,48.7,63.488t16.025,72.735q0,36.979-16.025,73.349" transform="translate(-235.858 -75.538)" fill="#ec633c"/>
+                <path id="Path_4" data-name="Path 4" d="M876.21,318.272a182.143,182.143,0,0,1-36.985,55.472,167.779,167.779,0,0,1-55.477,37.6,172.224,172.224,0,0,1-67.8,13.56q-36.986,0-69.035-13.56a174.751,174.751,0,0,1-56.092-37.6,176.684,176.684,0,0,1-37.6-55.472,167.812,167.812,0,0,1-13.561-67.187q0-36.984,13.561-69.035a174.36,174.36,0,0,1,93.691-93.69Q678.963,74.8,715.949,74.8a172.228,172.228,0,0,1,67.8,13.564,167.791,167.791,0,0,1,55.477,37.6A180.068,180.068,0,0,1,876.21,182.05q13.56,32.052,13.56,69.035a167.812,167.812,0,0,1-13.56,67.187" transform="translate(-158.736 423.056)" fill="#eda297"/>
+                <path id="Path_5" data-name="Path 5" d="M1755.833,355.995q-16.028,36.37-48.7,64.106t-80.747,44.993q-48.076,17.261-112.183,17.259V84.167q64.106,0,112.183,17.259t80.747,45q32.669,27.736,48.7,63.488t16.025,72.735q0,36.979-16.025,73.349" transform="translate(-235.858 365.776)" fill="#755c4e"/>
+              </g>
+            </g>
+          </svg>
+
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
   </section><!-- #home__hero -->
 
   <section id="home__about" style="padding: 80px 0;">
@@ -48,7 +67,7 @@ get_header($config);
   <section id="home__philosophy" style="padding: 50px 0 130px">
     <div class="container-fluid">
       <div class="row justify-content-end">
-        <div class="col-md-7">
+        <div class="col-lg-7">
           <p style="margin-bottom: 80px; font-size: 30px; line-height: 40px; font-weight: 500;">At Chaman Bhartiya School, Leadership is a broad and deep concept. It is  a quality, a principal value that a huuman being actively and deliberately cultivates to lead a meaningful and purpose-filled life.</p>
 
           <h6 class="text-uppercase" style="margin-bottom: 20px">It's all in the Philosophy</h6>
@@ -61,7 +80,7 @@ get_header($config);
   <section id="home__leadership" style="padding-bottom: 180px">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6" style="background: #ed633c; padding: 70px 70px 80px; margin: 0 5%;">
+        <div class="col-lg-6" style="background: #ed633c; padding: 70px 70px 80px; margin: 0 5.2305%;">
           <figure class="d-block d-lg-none" style="margin: -70px -70px 80px;">
             <img src="assets/demo/home/bubble.jpg" alt="" />
           </figure>
@@ -83,7 +102,7 @@ get_header($config);
         <div class="col" style="padding: 0; background-image: url(assets/demo/home/woman.jpg); background-repeat: no-repeat; background-size: cover;">
         </div><!-- /.col -->
 
-        <div class="col-lg-6" style="background: #20234c; padding: 70px 70px 80px; margin: 0 5%;">
+        <div class="col-lg-6" style="background: #20234c; padding: 70px 70px 80px; margin: 0 5.2305%;">
           <figure class="d-block d-lg-none" style="margin: -70px -70px 80px;">
             <img src="assets/demo/home/woman.jpg" alt="" />
           </figure>
@@ -164,13 +183,7 @@ get_header($config);
       <div class="row">
         <div class="col">
           <h6 class="text-uppercase" style="margin-bottom: 20px">What people say</h6>
-          <blockquote class="row testimonial testimonial-right" style="margin-bottom: 150px">
-            <div class="col-lg-5">
-              <figure>
-                <img src="assets/demo/home/testimonial-1.jpg" alt="Sofia - Year 5 Student" />
-              </figure>
-            </div><!-- /.col-lg-5 -->
-
+          <blockquote class="row testimonial" style="margin-bottom: 150px">
             <div class="col-lg-7">
               <h3 class="testimonial-title">"I love starting my day with a history class, it's the best"</h3>
               <h6 class="testimonial-user-info">
@@ -179,15 +192,15 @@ get_header($config);
               </h6>
               <p>Suspendisse potenti. Proin at lectus condimentum, aliquam justo ac, suscipit urna. Proin at ligula porta lacus tempus ullamcorper. Nunc lacus neque, tempor vitae risus eget, porta frigilla nibh.</p>
             </div><!-- /.col-lg-7 -->
-          </blockquote><!-- /.testimonial -->
 
-          <blockquote class="row testimonial">
             <div class="col-lg-5">
               <figure>
-                <img src="assets/demo/home/testimonial-2.jpg" alt=">Albert White - Music Teacher" />
+                <img src="assets/demo/home/testimonial-1.jpg" alt="Sofia - Year 5 Student" />
               </figure>
             </div><!-- /.col-lg-5 -->
+          </blockquote><!-- /.testimonial -->
 
+          <blockquote class="row testimonial testimonial-right">
             <div class="col-lg-7">
               <h3 class="testimonial-title">"What I love about my job is triggering curiosity"</h3>
               <h6 class="testimonial-user-info">
@@ -196,6 +209,12 @@ get_header($config);
               </h6>
               <p>Suspendisse potenti. Proin at lectus condimentum, aliquam justo ac, suscipit urna. Proin at ligula porta lacus tempus ullamcorper. Nunc lacus neque, tempor vitae risus eget, porta frigilla nibh.</p>
             </div><!-- /.col-lg-7 -->
+
+            <div class="col-lg-5">
+              <figure>
+                <img src="assets/demo/home/testimonial-2.jpg" alt=">Albert White - Music Teacher" />
+              </figure>
+            </div><!-- /.col-lg-5 -->
           </blockquote><!-- /.testimonial -->
         </div><!-- /.col -->
       </div><!-- /.row -->
@@ -207,19 +226,19 @@ get_header($config);
       <div class="row">
         <div class="col">
           <h6 class="text-uppercase" style="margin-bottom: 20px; color: #e5e5e5">Become a leader</h6>
-          <h2 style="z-index: 10; text-align: center; color: #e5e5e5; margin-top: 140px; margin-bottom: 180px; font-size: 125px; line-height: .85">Admissions for 2020<br /> are now open!</h2>
         </div><!-- /.col -->
       </div><!-- /.row -->
 
-      <div class="row">
-        <div class="col d-flex justify-content-center">
-          <a href="javascript:void(0);" class="btn btn-outline-white text-center" style="z-index: 10; font-weight: 500; border-radius: 0; border-width: 3px; padding: 20px 100px; font-size: 30px">See more stories...</a>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 d-flex flex-column align-items-center justify-content-center">
+          <h2 style="z-index: 10; text-align: center; color: #e5e5e5; margin-top: 10.216%; margin-bottom: 17.027%; font-size: 125px; line-height: .85">Admissions for 2020 are now open!</h2>
+          <a href="javascript:void(0);" class="btn btn-outline-white text-center" style="z-index: 10; border-radius: 0; border-width: 3px; padding: 20px 5%; font-size: 30px">Secure your place now!</a>
         </div>
       </div><!-- /.row -->
 
       <div class="row justify-content-center">
         <div class="col d-flex flex-column align-items-center">
-          <figure style="margin-top: -20%; margin-bottom: -10%; display: inline-block;">
+          <figure style="width: 50%; margin-top: -28%; margin-bottom: -10%; display: inline-block;">
             <img src="assets/demo/home/ellipse.png" alt="" />
           </figure>
         </div><!-- /.col-6 -->

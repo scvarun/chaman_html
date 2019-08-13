@@ -1,8 +1,8 @@
     <footer id="main-footer">
       <div class="container-fluid">
-        <div class="row" style="padding-top: 110px; padding-bottom: 130px;">
+        <div class="row" style="padding-top: 80px; padding-bottom: 130px;">
           <div class="col">
-            <a href="javascript:void(0);" class="btn btn-link text-body-color text-uppercase" style="font-size: 30px; font-weight: bold;">&uarr; Back To Top</a>
+            <a href="#top" class="btn btn-link text-body-color text-uppercase" style="font-size: 30px; font-weight: bold;">&uarr; Back To Top</a>
           </div><!-- /.col -->
         </div><!-- /.row -->
 

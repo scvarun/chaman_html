@@ -1,0 +1,21 @@
+@keyframes LOGO_GROUP_1
+  0%
+    opacity: 1
+  25%
+    opacity: 0
+  50%
+    opacity: 1
+  75%
+    opacity: 0
+  100%
+    opacity: 1
+
+#CHAMAN_LOGO_SVG
+  rect, path
+    animation-name: LOGO_GROUP_1
+    animation-duration: 3s
+    animation-timing-function: ease-in-out
+  @for $i from 1 through 10
+    rect:nth-child(#{$i}), path:nth-child(#{$i})
+      animation-delay: #{.2*$i}s
+  

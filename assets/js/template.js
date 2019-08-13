@@ -29,9 +29,47 @@
     },
 
     content: function() {
+      this.enableSmoothScroll();
     },
+
+    enableSmoothScroll: function() {
+      $('a').on('click', function(e) {
+        if( this.hash !== '' ) {
+          e.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function() {
+            window.location.hash = hash;
+          });
+        }
+      });
+    },
+
+    
     
     enablePlugins: function() {
+      this.enableSticky();
+    },
+
+    enableSticky: function() {
+      var $el = $('.sticky-wrapper');
+      if( !$el.length ) return;
+      var defaults = {
+        useStickyClasses: true
+      };
+      $el.each(function() {
+        var $sticky = $(this);
+        var options = $sticky.data('plugin-options');
+        options = $.extend({}, defaults, options);
+        stickybits($sticky[0], options);
+
+        // Workaround for firefox bug
+        var posY = window.pageYOffset;
+        var posX = window.pageXOffset;
+        window.scrollTo(posY, window.pageYOffset - 1);
+        window.scrollTo(posY, window.pageYOffset);
+      });
     },
   };
 

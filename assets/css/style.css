@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1.81818; }
+  margin-bottom: 1.81818em; }
 
 abbr[title],
 abbr[data-original-title] {
@@ -7166,6 +7166,9 @@ figure img {
   width: 100%;
   height: auto; }
 
+svg {
+  max-width: 100%; }
+
 /*
  * --------------------
  * Typography
@@ -7208,7 +7211,7 @@ h6, .h6 {
 .text-body-color {
   color: #765c4f; }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1400px) {
   h1, .h1 {
     font-size: 5.625rem !important; }
   h2, .h2 {
@@ -7281,6 +7284,8 @@ h6, .h6 {
   font-weight: normal; }
 
 @media screen and (min-width: 992px) {
+  .testimonial p {
+    margin-bottom: 2em; }
   .testimonial.testimonial-right {
     flex-flow: row-reverse; } }
 
@@ -7294,17 +7299,25 @@ h6, .h6 {
  * Header Styling
  * --------------------
  */
+.header-overlay .content-wrapper {
+  padding-top: 200px; }
+
+.navbar > .container > .row,
+.navbar > .container-fluid > .row {
+  flex: 1; }
+
 #main-navbar {
   height: 200px;
   justify-content: space-between;
-  padding: 0 5%;
   background: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0; }
+  position: relative;
+  margin-bottom: -200px;
+  padding: 0 50px;
+  z-index: 100;
+  transition: all 0.2s ease-in-out; }
   #main-navbar .navbar-brand img {
-    max-height: 100px; }
+    max-height: 100px;
+    transition: all 0.2s ease-in-out; }
   #main-navbar .main-navigation .nav-item {
     padding: 0 2em; }
   #main-navbar .main-navigation .nav-link {
@@ -7313,6 +7326,11 @@ h6, .h6 {
     font-size: 30px; }
   #main-navbar.navbar-dark .navbar-nav .nav-link {
     color: #fff; }
+  #main-navbar.js-is-sticky {
+    background: #765c4f;
+    height: calc(200px - 40px); }
+    #main-navbar.js-is-sticky .navbar-brand img {
+      max-height: calc(100px - 40px); }
 
 @media screen and (max-width: 992px) {
   #main-navbar .nav-container.active {
