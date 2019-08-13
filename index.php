@@ -126,11 +126,11 @@ get_header($config);
               <article id="post-1" class="post has-post-thumbnail">
                 <figure class="entry-thumbnail">
                   <img src="assets/demo/home/posts/post-1.jpg" alt="Skills for the 21st century" />
-                  <a href="javascript:void(0);" class="">Skills for the 21st century</a>
+                  <a href="page-single-blog.php" class="">Skills for the 21st century</a>
                 </figure>
                 <div class="entry-content">
                   <h5 class="entry-title h4">
-                    <a href="javascript:void(0);">Skills of the 21st Century</a>
+                    <a href="page-single-blog.php">Skills of the 21st Century</a>
                   </h5>
                   <p>Suspendisse potenti. Proin at lectus condimentum, aliquam justo ac, suscipit urna. Proin at ligula porta lacus tempus ullamcorper. Nunc lacus neque, temper vitae risus eget, porta fringilla nibh.</p>
                 </div>
@@ -141,11 +141,11 @@ get_header($config);
               <article id="post-2" class="post has-post-thumbnail">
                 <figure class="entry-thumbnail">
                   <img src="assets/demo/home/posts/post-2.jpg" alt="Skills for the 21st century" />
-                  <a href="javascript:void(0);" class="">Leadership Pedagogy</a>
+                  <a href="page-single-blog.php" class="">Leadership Pedagogy</a>
                 </figure>
                 <div class="entry-content">
                   <h5 class="entry-title h4">
-                    <a href="javascript:void(0);">Leadership Pedagogy</a>
+                    <a href="page-single-blog.php">Leadership Pedagogy</a>
                   </h5>
                   <p>Suspendisse potenti. Proin at lectus condimentum, aliquam justo ac, suscipit urna. Proin at ligula porta lacus tempus ullamcorper. Nunc lacus neque, temper vitae risus eget, porta fringilla nibh.</p>
                 </div>
@@ -156,11 +156,11 @@ get_header($config);
               <article id="post-1" class="post has-post-thumbnail">
                 <figure class="entry-thumbnail">
                   <img src="assets/demo/home/posts/post-3.jpg" alt="New Teachers" />
-                  <a href="javascript:void(0);" class="">New Teachers</a>
+                  <a href="page-single-blog.php" class="">New Teachers</a>
                 </figure>
                 <div class="entry-content">
                   <h5 class="entry-title h4">
-                    <a href="javascript:void(0);">New Teachers</a>
+                    <a href="page-single-blog.php">New Teachers</a>
                   </h5>
                   <p>Suspendisse potenti. Proin at lectus condimentum, aliquam justo ac, suscipit urna. Proin at ligula porta lacus tempus ullamcorper. Nunc lacus neque, temper vitae risus eget, porta fringilla nibh.</p>
                 </div>
