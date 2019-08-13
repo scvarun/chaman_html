@@ -24,7 +24,9 @@ get_header($config);
           <h2>We believe challenges can be addressed right at the grass root level</h2>
         </div><!-- /.col-lg-7 -->
       </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
 
+    <div class="container-fluid" style="padding: 0">
       <div class="row no-gutters" style="margin-top: -300px">
         <div class="col-lg-7" style="z-index: 0;">
           <figure>
@@ -32,7 +34,9 @@ get_header($config);
           </figure>
         </div><!-- /.col-lg-7 -->
       </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
 
+    <div class="container-fluid">
       <div class="row" style="padding-top: 110px;">
         <div class="col-lg-7" style="z-index: 2">
           <h6 style="color: #e5e5e5; text-transform: uppercase;">Our Commitments</h6>
@@ -58,28 +62,36 @@ get_header($config);
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
 
-    <div class="container-fluid no-gutters">
-      <div class="row">
-        <div class="col-lg-7" style="z-index: 0">
-          <figure>
-            <img src="assets/demo/about/logo-part-1.png" alt="" />
+    <div class="container-fluid">
+      <div class="row no-gutters">
+        <div class="col-lg-5" style="z-index: 0">
+          <figure style="margin-left: -100px;">
+            <img src="assets/demo/about/logo-part-2.png" alt="" />
           </figure>
+        </div><!-- /.col-lg-7 -->
+      </div><!-- /.row -->
+
+      <div class="row"  style="margin-top: -550px;">
+        <div class="col-lg-7">
+          <h1 style="color: #e5e5e5; text-transform: uppercase; margin-bottom: 180px;">We</h1>
+          <p style="color: #e5e5e5;">Duis ut tellus aliquam augue dapibus interdum eget iaculis eros. Nam sed tincidunt lectus, eget porta enim. Sed vehicula porta lacinia. Nam quis dapibus quam venenatis pellentesque sit amet at mauris.</p>
+          <p style="color: #e5e5e5;">In a rhoncus enim. Nulla purus nisi posuere ac felis id, dapibus consectetur velit. Donec erat mauris, hendrerit vitae pulvinar sit amet, viverra id enim. Pellentesque habitant morbi tristique senectus  et netus et malesuada.</p>
+          <a href="javascript:void(0);" class="btn btn-link" style="color: #e5e5e5; text-decoration: underline; font-weight: bold;">Read more</a>
         </div><!-- /.col-lg-7 -->
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
 
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-7">
-          <h1 style="color: #e5e5e5; text-transform: uppercase;">We</h1>
+      <div class="row justify-content-end">
+        <div class="col-lg-5" style="z-index: 0">
+          <figure style="margin-left: -100px;">
+            <img src="assets/demo/about/logo-part-3.png" alt="" />
+          </figure>
         </div><!-- /.col-lg-7 -->
       </div><!-- /.row -->
 
       <div class="row">
         <div class="col-lg-7">
-          <p style="color: #e5e5e5;">Duis ut tellus aliquam augue dapibus interdum eget iaculis eros. Nam sed tincidunt lectus, eget porta enim. Sed vehicula porta lacinia. Nam quis dapibus quam venenatis pellentesque sit amet at mauris.</p>
-          <p style="color: #e5e5e5;">In a rhoncus enim. Nulla purus nisi posuere ac felis id, dapibus consectetur velit. Donec erat mauris, hendrerit vitae pulvinar sit amet, viverra id enim. Pellentesque habitant morbi tristique senectus  et netus et malesuada.</p>
-          <a href="javascript:void(0);" class="btn btn-link" style="color: #e5e5e5; text-decoration: underline; font-weight: bold;">Read more</a>
         </div><!-- /.col-lg-7 -->
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
