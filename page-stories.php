@@ -19,17 +19,17 @@ get_header($config);
           <div class="container-fluid">
             <div class="row">
               <div class="col entry-thumbnail-side" style="background-image: url(assets/demo/home/posts/post-1.jpg);">
-                <a href="page-stories-single.php" class="pos-0 opacity-0"></a>
+                <a href="page-single-news.php" class="pos-0 opacity-0"></a>
               </div><!-- /.col -->
 
               <main class="col-lg-6">
                 <figure class="d-block d-lg-none entry-thumbnail">
                   <img src="assets/demo/home/posts/post-1.jpg" alt="" />
-                  <a href="page-stories-single.php">This is a new story</a>
+                  <a href="page-single-news.php">This is a new story</a>
                 </figure>
 
                 <h4 class="entry-title" itemprop="headline">
-                  <a href="page-stories-single.php" rel="bookmark" itemprop="url">This is a new story</a>
+                  <a href="page-single-news.php" rel="bookmark" itemprop="url">This is a new story</a>
                 </h4>
 
                 <div class="entry-content" itemprop="text">
@@ -38,7 +38,7 @@ get_header($config);
                 </div><!-- /.entry-content -->
 
                 <footer class="entry-footer">
-                  <a href="page-stories-single.php" class="btn btn-link read-more-link">Read more</a>
+                  <a href="page-single-news.php" class="btn btn-link read-more-link">Read more</a>
                 </footer>
               </main><!-- /.col-md-6 -->
             </div><!-- /.row -->
@@ -49,17 +49,17 @@ get_header($config);
           <div class="container-fluid">
             <div class="row">
               <div class="col entry-thumbnail-side" style="background-image: url(assets/demo/home/posts/post-2.jpg);">
-                <a href="page-stories-single.php" class="pos-0 opacity-0"></a>
+                <a href="page-single-job-listing.php" class="pos-0 opacity-0"></a>
               </div><!-- /.col -->
 
               <main class="col-lg-6">
                 <figure class="d-block d-lg-none entry-thumbnail">
                   <img src="assets/demo/home/posts/post-2.jpg" alt="" />
-                  <a href="page-stories-single.php">This is a job posting</a>
+                  <a href="page-single-job-listing.php">This is a job posting</a>
                 </figure>
 
                 <h4 class="entry-title" itemprop="headline">
-                  <a href="page-stories-single.php" rel="bookmark" itemprop="url">This is a job posting</a>
+                  <a href="page-single-job-listing.php" rel="bookmark" itemprop="url">This is a job posting</a>
                 </h4>
 
                 <div class="entry-content" itemprop="text">
@@ -68,7 +68,7 @@ get_header($config);
                 </div><!-- /.entry-content -->
 
                 <footer class="entry-footer">
-                  <a href="page-stories-single.php" class="btn btn-link read-more-link">Read more</a>
+                  <a href="page-single-job-listing.php" class="btn btn-link read-more-link">Read more</a>
                 </footer>
               </main><!-- /.col-md-6 -->
             </div><!-- /.row -->
@@ -79,17 +79,17 @@ get_header($config);
           <div class="container-fluid">
             <div class="row">
               <div class="col entry-thumbnail-side" style="background-image: url(assets/demo/home/posts/post-3.jpg);">
-                <a href="page-stories-single.php" class="pos-0 opacity-0"></a>
+                <a href="page-single-blog.php" class="pos-0 opacity-0"></a>
               </div><!-- /.col -->
 
               <main class="col-lg-6">
                 <figure class="d-block d-lg-none entry-thumbnail">
                   <img src="assets/demo/home/posts/post-3.jpg" alt="" />
-                  <a href="page-stories-single.php">This is a random story</a>
+                  <a href="page-single-blog.php">This is a random story</a>
                 </figure>
 
                 <h4 class="entry-title" itemprop="headline">
-                  <a href="page-stories-single.php" rel="bookmark" itemprop="url">This is a random story</a>
+                  <a href="page-single-blog.php" rel="bookmark" itemprop="url">This is a random story</a>
                 </h4>
 
                 <div class="entry-content" itemprop="text">
@@ -98,7 +98,7 @@ get_header($config);
                 </div><!-- /.entry-content -->
 
                 <footer class="entry-footer">
-                  <a href="page-stories-single.php" class="btn btn-link read-more-link">Read more</a>
+                  <a href="page-single-blog.php" class="btn btn-link read-more-link">Read more</a>
                 </footer>
               </main><!-- /.col-md-6 -->
             </div><!-- /.row -->
