@@ -56,7 +56,9 @@ get_header($config);
           <a href="javascript:void(0);" class="btn btn-link" style="color: #e5e5e5; text-decoration: underline; font-weight: bold;">Read more</a>
         </div><!-- /.col-lg-7 -->
       </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
 
+    <div class="container-fluid no-gutters">
       <div class="row">
         <div class="col-lg-7" style="z-index: 0">
           <figure>
@@ -64,7 +66,9 @@ get_header($config);
           </figure>
         </div><!-- /.col-lg-7 -->
       </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
 
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-7">
           <h1 style="color: #e5e5e5; text-transform: uppercase;">We</h1>
