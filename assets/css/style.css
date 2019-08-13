@@ -7307,6 +7307,11 @@ figure img {
 svg {
   max-width: 100%; }
 
+.large-list {
+  padding-left: 1.2em; }
+  .large-list li:not(:last-child) {
+    margin-bottom: 1em; }
+
 /*
  * --------------------
  * Typography
@@ -7513,6 +7518,18 @@ h6, .h6 {
   background: #ec633c;
   padding: 70px 70px 80px;
   margin: 0 5.2305%; }
+  .main-content .post main .post-categories {
+    list-style: none;
+    padding: 0; }
+    .main-content .post main .post-categories li {
+      display: inline-block;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 1.875rem; }
+    .main-content .post main .post-categories a {
+      color: #e5e5e5; }
+      .main-content .post main .post-categories a:hover {
+        text-decoration: none; }
 
 .main-content .post .entry-thumbnail-side {
   padding: 0;
@@ -7521,6 +7538,9 @@ h6, .h6 {
   background-size: cover; }
   .main-content .post .entry-thumbnail-side a, .main-content .post .entry-thumbnail-side a:hover, .main-content .post .entry-thumbnail-side a:active {
     outline: none; }
+  .main-content .post .entry-thumbnail-side .entry-thumbnail {
+    margin: 0;
+    width: 100%; }
 
 .main-content .post .entry-thumbnail {
   margin: -70px -70px 80px; }
@@ -7535,7 +7555,8 @@ h6, .h6 {
       outline: none; }
 
 .main-content .post .entry-title {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  color: #e5e5e5; }
   .main-content .post .entry-title a {
     color: #e5e5e5; }
     .main-content .post .entry-title a:hover {
@@ -7560,5 +7581,28 @@ h6, .h6 {
 
 .main-content .post.category-job-listing main {
   background: #20234c; }
+
+.main-content > footer {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-bottom: 290px; }
+
+.single .main-content {
+  padding-top: 40px; }
+  .single .main-content .post main {
+    background: none;
+    padding: 0;
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+    font-weight: normal; }
+  .single .main-content .post .entry-title {
+    margin-bottom: 105px; }
+  .single .main-content > footer .back-to-posts-btn {
+    font-weight: 500;
+    border-radius: 0;
+    border-width: 3px;
+    padding: 20px 100px;
+    font-size: 30px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -10,7 +10,7 @@ $config = array(
 get_header($config);
 ?>
 
-<div class="content-wrapper">
+<div class="content-wrapper" style="background: #ec633c">
   <div class="container-fluid">
     <div class="row">
       <main id="main" class="main-content">
@@ -18,17 +18,22 @@ get_header($config);
         <article class="post type-post has-post-thumbnail category-leadership-philosphy" itemtype="https://schema.org/CreativeWork" itemscope>
           <div class="container-fluid">
             <div class="row">
-              <div class="col entry-thumbnail-side" style="background-image: url(assets/demo/home/posts/post-3.jpg);">
-                <a href="page-single-blog.php" class="pos-0 opacity-0"></a>
+              <div class="col entry-thumbnail-side d-none d-lg-flex">
+                <figure class="entry-thumbnail">
+                  <img src="assets/demo/home/posts/post-3.jpg" alt="" />
+                </figure>
               </div><!-- /.col -->
 
               <main class="col-lg-6">
-                <figure class="d-block d-lg-none entry-thumbnail">
+                <figure class="entry-thumbnail d-block d-lg-none">
                   <img src="assets/demo/home/posts/post-3.jpg" alt="" />
-                  <a href="page-single-blog.php">This is a random story</a>
                 </figure>
 
-                <h1 lass="entry-title" itemprop="headline">
+                <ul class="post-categories">
+                  <li><a href="http://vibes-wp.loc/category/fitness/" rel="category tag">Fitness</a></li>
+                </ul>
+
+                <h1 class="entry-title h2" itemprop="headline">
                   This is a random story
                 </h1>
 
@@ -44,7 +49,7 @@ get_header($config);
                   <h5>Sub Heading</h5>
                   <p>It is about enhancing one’s own personal ability to give direction to one’s own life on a meaningful path. We have zoned in on these 5 major elements that contribute towards realizing the leadership potential in each child.</p>
 
-                  <ol>
+                  <ol class="large-list h4">
                     <li>List, list. Connections between different subjects</li>
                     <li>Deep learning and subject mastery Match the learner’s profile readiness & interest</li>
                     <li>In-depth understanding of the relevance and application of the subject</li>
@@ -57,15 +62,15 @@ get_header($config);
           </div><!-- /.container-fluid -->
         </article><!-- /.post -->
 
-        <div class="row">
-          <div class="col d-flex justify-content-center">
-            <a href="javascript:void(0);" class="btn btn-outline-white" style="font-weight: 500; border-radius: 0; border-width: 3px; padding: 20px 100px; font-size: 30px">Take me back</a>
-          </div><!-- /.col -->
-        </div>
+        <footer>
+          <a href="page-stories.php" class="btn btn-outline-white back-to-posts-btn">Take me back</a>
+        </footer><!-- /.d-flex -->
 
       </main><!-- /.main-content -->
     </div><!-- /.row -->
   </div><!-- /.container-fluid -->
+
+  
 </div>
 
 <?php get_footer();
