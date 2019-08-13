@@ -22,6 +22,9 @@
       <li class="menu-item nav-item">
         <a class="nav-link" href="javascript:void(0);">Leadership</a>
       </li>
+      <li class="menu-item nav-item">
+        <a class="nav-link" href="page-stories.php">Stories</a>
+      </li>
     </ul>
   </div><!-- /.nav-container -->
 </nav>
