@@ -75,7 +75,7 @@ get_header($config);
           </div><!-- /.container-fluid -->
         </article><!-- /.post -->
 
-        <article class="post type-post has-post-thumbnail" itemtype="https://schema.org/CreativeWork" itemscope>
+        <article class="post type-post has-post-thumbnail category-leadership-philosphy" itemtype="https://schema.org/CreativeWork" itemscope>
           <div class="container-fluid">
             <div class="row">
               <div class="col entry-thumbnail-side" style="background-image: url(assets/demo/home/posts/post-3.jpg);">
