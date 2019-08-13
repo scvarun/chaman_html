@@ -69,21 +69,28 @@
     justify-content: center
     margin-bottom: 290px
 
-.single .main-content
-  padding-top: 40px
-  .post
-    main
-      background: none
-      padding: 0
-      font-size: rem(30)
-      line-height: rem(40)
-      font-weight: normal
-    .entry-title
-      margin-bottom: 105px
-  > footer
-    .back-to-posts-btn
-      font-weight: 500
-      border-radius: 0
-      border-width: 3px
-      padding: 20px 100px
-      font-size: 30px
+.single
+  .content-wrapper
+    background: $orange
+  .main-content
+    padding-top: 40px
+    .post
+      main
+        background: none
+        padding: 0
+        font-size: rem(30)
+        line-height: rem(40)
+        font-weight: normal
+      .entry-title
+        margin-bottom: 105px
+    > footer
+      .back-to-posts-btn
+        font-weight: 500
+        border-radius: 0
+        border-width: 3px
+        padding: 20px 100px
+        font-size: 30px
+  &.category-news .content-wrapper
+    background: $brown
+  &.category-job-listing .content-wrapper
+    background: $blue

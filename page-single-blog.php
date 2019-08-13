@@ -4,7 +4,7 @@ include_once 'lib/functions.php';
 
 $config = array(
   'title' => 'Stories | Chaman Bharatiya',
-  'body_class' => $GLOBALS['body_class'] . ' header-overlay single single-post',
+  'body_class' => $GLOBALS['body_class'] . ' header-overlay single single-post category-',
 );
 
 get_header($config);
