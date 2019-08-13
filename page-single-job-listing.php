@@ -4,7 +4,7 @@ include_once 'lib/functions.php';
 
 $config = array(
   'title' => 'Stories | Chaman Bharatiya',
-  'body_class' => $GLOBALS['body_class'] . ' header-overlay single single-post category-leadership-philosphy',
+  'body_class' => $GLOBALS['body_class'] . ' header-overlay single single-post category-job-listing',
 );
 
 get_header($config);
@@ -15,26 +15,26 @@ get_header($config);
     <div class="row">
       <main id="main" class="main-content">
 
-        <article class="post type-post has-post-thumbnail category-leadership-philosphy" itemtype="https://schema.org/CreativeWork" itemscope>
+        <article class="post type-post has-post-thumbnail category-job-listing" itemtype="https://schema.org/CreativeWork" itemscope>
           <div class="container-fluid">
             <div class="row">
               <div class="col entry-thumbnail-side d-none d-lg-flex">
                 <figure class="entry-thumbnail">
-                  <img src="assets/demo/home/posts/post-3.jpg" alt="" />
+                  <img src="assets/demo/home/posts/post-1.jpg" alt="" />
                 </figure>
               </div><!-- /.col -->
 
               <main class="col-lg-6">
                 <figure class="entry-thumbnail d-block d-lg-none">
-                  <img src="assets/demo/home/posts/post-3.jpg" alt="" />
+                  <img src="assets/demo/home/posts/post-1.jpg" alt="" />
                 </figure>
 
                 <ul class="post-categories">
-                  <li><a href="#" rel="category tag">Leadership Philosophy</a></li>
+                  <li><a href="#" rel="category tag">Job Listing</a></li>
                 </ul>
 
                 <h1 class="entry-title h2" itemprop="headline">
-                  This is a random story
+                  This is a job listing
                 </h1>
 
                 <div class="entry-content" itemprop="text">
@@ -63,7 +63,7 @@ get_header($config);
         </article><!-- /.post -->
 
         <footer>
-          <a href="page-stories.php" class="btn btn-outline-white back-to-posts-btn">Take me back</a>
+          <a href="page-stories.php" class="btn btn-outline-white back-to-posts-btn">Back to Job Listings</a>
         </footer><!-- /.d-flex -->
 
       </main><!-- /.main-content -->
