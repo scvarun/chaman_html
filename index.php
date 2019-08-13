@@ -110,7 +110,7 @@ get_header($config);
           <p style="color: #e5e5e5">Duis ut tellus aliquam augue dapibus interdum eget iaculis eros. Nam sed tincidunt lectus, eget porta enim. Sed vehicula port lacinia. Nam quis purus dapibus quam venenatis pellentesque sit amet at mauris.</p>
           <p style="color: #e5e5e5; margin-bottom: 55px">In a rhoncus enim. Nulla purus nisi, posuere ac felis id, dapibus consectetur velit. Donec erat mauris, hendrerit vitae pulvinar sit amet, viverra id enim. Pelletesque habitant morbi tristique senectus et netus et malesuada.</p>
           <a href="#" class="btn btn-link text-white" style="color: #e5e5e5; font-weight: bold; text-decoration: underline;">Discover our Team</a>
-        </div><!-- /.col-md-7 -->
+        </div><!-- /.col-md-6 -->
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
   </section>

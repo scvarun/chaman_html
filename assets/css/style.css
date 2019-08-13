@@ -7154,6 +7154,144 @@ a.text-white:hover, a.text-white:focus {
  */
 /*
  * --------------------
+ * Radius
+ * --------------------
+ */
+.radius-0 {
+  border-radius: 0; }
+
+.radius-full {
+  border-radius: 100%; }
+
+.radius-2 {
+  border-radius: 2px;
+  overflow: hidden; }
+
+.radius-3 {
+  border-radius: 3px;
+  overflow: hidden; }
+
+.radius-4 {
+  border-radius: 4px;
+  overflow: hidden; }
+
+.radius-5 {
+  border-radius: 5px;
+  overflow: hidden; }
+
+.radius-6 {
+  border-radius: 6px;
+  overflow: hidden; }
+
+.radius-7 {
+  border-radius: 7px;
+  overflow: hidden; }
+
+.radius-8 {
+  border-radius: 8px;
+  overflow: hidden; }
+
+.radius-9 {
+  border-radius: 9px;
+  overflow: hidden; }
+
+.radius-10 {
+  border-radius: 10px;
+  overflow: hidden; }
+
+.radius-11 {
+  border-radius: 11px;
+  overflow: hidden; }
+
+.radius-12 {
+  border-radius: 12px;
+  overflow: hidden; }
+
+.radius-13 {
+  border-radius: 13px;
+  overflow: hidden; }
+
+.radius-14 {
+  border-radius: 14px;
+  overflow: hidden; }
+
+.radius-15 {
+  border-radius: 15px;
+  overflow: hidden; }
+
+.radius-16 {
+  border-radius: 16px;
+  overflow: hidden; }
+
+.radius-17 {
+  border-radius: 17px;
+  overflow: hidden; }
+
+.radius-18 {
+  border-radius: 18px;
+  overflow: hidden; }
+
+.radius-19 {
+  border-radius: 19px;
+  overflow: hidden; }
+
+.radius-20 {
+  border-radius: 20px;
+  overflow: hidden; }
+
+/*
+ * --------------------
+ * Position
+ * --------------------
+ */
+.pos-static {
+  position: static; }
+
+.pos-fixed {
+  position: fixed; }
+
+.pos-relative {
+  position: relative; }
+
+
+.absolute-center,
+.horizontal-center,
+.vertical-center, .pos-absolute, .pos-0 {
+  position: absolute; }
+
+.pos-top, .pos-0 {
+  top: 0; }
+
+.pos-right, .pos-0 {
+  right: 0; }
+
+.pos-left, .pos-0 {
+  left: 0; }
+
+.pos-bottom, .pos-0 {
+  bottom: 0; }
+
+.pos-left, .pos-0 {
+  left: 0; }
+
+
+.absolute-center,
+.horizontal-center {
+  left: 50%;
+  transform: translateX(-50%); }
+
+
+.absolute-center,
+.vertical-center {
+  top: 50%;
+  transform: translateY(-50%); }
+
+
+.absolute-center {
+  transform: translate(-50%, -50%); }
+
+/*
+ * --------------------
  * Base Styling
  * --------------------
  */
@@ -7330,7 +7468,7 @@ h6, .h6 {
     background: #765c4f;
     height: calc(200px - 40px); }
     #main-navbar.js-is-sticky .navbar-brand img {
-      max-height: calc(100px - 40px); }
+      max-height: calc(100px - 50px); }
 
 @media screen and (max-width: 992px) {
   #main-navbar .nav-container.active {
@@ -7351,5 +7489,50 @@ h6, .h6 {
     padding-left: 0; }
   body.navigation-overlay {
     overflow: hidden; } }
+
+/*
+ * --------------------
+ * Blog Styling
+ * --------------------
+ */
+body.blog main#main .post .entry-thumbnail-side {
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  body.blog main#main .post .entry-thumbnail-side a, body.blog main#main .post .entry-thumbnail-side a:hover, body.blog main#main .post .entry-thumbnail-side a:active {
+    outline: none; }
+
+body.blog main#main .post .entry-thumbnail {
+  margin: -70px -70px 80px; }
+  body.blog main#main .post .entry-thumbnail a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0; }
+    body.blog main#main .post .entry-thumbnail a:hover, body.blog main#main .post .entry-thumbnail a:active {
+      outline: none; }
+
+body.blog main#main .post .entry-title {
+  margin-bottom: 20px; }
+  body.blog main#main .post .entry-title a {
+    color: #e5e5e5; }
+    body.blog main#main .post .entry-title a:hover {
+      text-decoration: none; }
+
+body.blog main#main .post .entry-content {
+  color: #e5e5e5; }
+
+body.blog main#main .post .entry-footer .read-more-link {
+  color: #e5e5e5;
+  font-weight: bold;
+  text-decoration: underline; }
+
+body.blog main#main .post.category-news main {
+  background: #20234c;
+  padding: 70px 70px 80px;
+  margin: 0 5.2305%; }
 
 /*# sourceMappingURL=style.css.map */
