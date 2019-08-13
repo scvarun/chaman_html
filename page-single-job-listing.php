@@ -4,7 +4,7 @@ include_once 'lib/functions.php';
 
 $config = array(
   'title' => 'Stories | Chaman Bharatiya',
-  'body_class' => $GLOBALS['body_class'] . ' header-overlay single single-post category-news',
+  'body_class' => $GLOBALS['body_class'] . ' header-overlay single single-post category-job-listing',
 );
 
 get_header($config);
@@ -15,7 +15,7 @@ get_header($config);
     <div class="row">
       <main id="main" class="main-content">
 
-        <article class="post type-post has-post-thumbnail category-news" itemtype="https://schema.org/CreativeWork" itemscope>
+        <article class="post type-post has-post-thumbnail category-job-listing" itemtype="https://schema.org/CreativeWork" itemscope>
           <div class="container-fluid">
             <div class="row">
               <div class="col entry-thumbnail-side d-none d-lg-flex">
@@ -30,11 +30,11 @@ get_header($config);
                 </figure>
 
                 <ul class="post-categories">
-                  <li><a href="#" rel="category tag">News</a></li>
+                  <li><a href="#" rel="category tag">Job Listing</a></li>
                 </ul>
 
                 <h1 class="entry-title h2" itemprop="headline">
-                  This is a random story
+                  This is a job listing
                 </h1>
 
                 <div class="entry-content" itemprop="text">
@@ -63,7 +63,7 @@ get_header($config);
         </article><!-- /.post -->
 
         <footer>
-          <a href="page-stories.php" class="btn btn-outline-white back-to-posts-btn">Back to stories</a>
+          <a href="page-stories.php" class="btn btn-outline-white back-to-posts-btn">Back to Job Listings</a>
         </footer><!-- /.d-flex -->
 
       </main><!-- /.main-content -->

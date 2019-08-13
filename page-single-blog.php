@@ -4,13 +4,13 @@ include_once 'lib/functions.php';
 
 $config = array(
   'title' => 'Stories | Chaman Bharatiya',
-  'body_class' => $GLOBALS['body_class'] . ' header-overlay single single-post category-',
+  'body_class' => $GLOBALS['body_class'] . ' header-overlay single single-post category-leadership-philosphy',
 );
 
 get_header($config);
 ?>
 
-<div class="content-wrapper" style="background: #ec633c">
+<div class="content-wrapper">
   <div class="container-fluid">
     <div class="row">
       <main id="main" class="main-content">
@@ -30,7 +30,7 @@ get_header($config);
                 </figure>
 
                 <ul class="post-categories">
-                  <li><a href="http://vibes-wp.loc/category/fitness/" rel="category tag">Fitness</a></li>
+                  <li><a href="#" rel="category tag">Leadership Philosophy</a></li>
                 </ul>
 
                 <h1 class="entry-title h2" itemprop="headline">
