@@ -4,38 +4,37 @@
  * --------------------
  */
 
-body.blog
-  main#main
-    .post
-      .entry-thumbnail-side
-        padding: 0
-        background-size: cover
-        background-repeat: no-repeat
-        background-size: cover
-        a, a:hover, a:active
+.main-content
+  .post
+    .entry-thumbnail-side
+      padding: 0
+      background-size: cover
+      background-repeat: no-repeat
+      background-size: cover
+      a, a:hover, a:active
+        outline: none
+    .entry-thumbnail
+      margin: -70px -70px 80px
+      a
+        @include position(absolute, 0)
+        opacity: 0
+        &:hover, &:active
           outline: none
-      .entry-thumbnail
-        margin: -70px -70px 80px
-        a
-          @include position(absolute, 0)
-          opacity: 0
-          &:hover, &:active
-            outline: none
-      .entry-title
-        margin-bottom: 20px
-        a
-          color: $white
-          &:hover
-            text-decoration: none
-      .entry-content
+    .entry-title
+      margin-bottom: 20px
+      a
         color: $white
-      .entry-footer
-        .read-more-link
-          color: $white
-          font-weight: bold
-          text-decoration: underline
-      &.category-news
-        main
-          background: #20234c
-          padding: 70px 70px 80px
-          margin: 0 5.2305%
+        &:hover
+          text-decoration: none
+    .entry-content
+      color: $white
+    .entry-footer
+      .read-more-link
+        color: $white
+        font-weight: bold
+        text-decoration: underline
+    &.category-news
+      main
+        background: #20234c
+        padding: 70px 70px 80px
+        margin: 0 5.2305%

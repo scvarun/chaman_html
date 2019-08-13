@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark sticky-wrapper" id="main-navbar" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
   <a href="index.php" class="navbar-brand">
-    <img src="assets/img/logo.png">
+    <img src="assets/img/logo.png" class="regular-logo" alt="" />
   </a>
 
   <a href="javascript:void(0);" class="btn btn-outline-white nav-toggle d-block d-lg-none" data-target="#navigation-1">
