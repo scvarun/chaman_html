@@ -6,6 +6,10 @@
 
 .main-content
   .post
+    main
+      background: $orange
+      padding: 70px 70px 80px
+      margin: 0 5.2305%
     .entry-thumbnail-side
       padding: 0
       background-size: cover
@@ -33,8 +37,13 @@
         color: $white
         font-weight: bold
         text-decoration: underline
-    &.category-news
-      main
-        background: #20234c
-        padding: 70px 70px 80px
-        margin: 0 5.2305%
+    &:not(:last-child)
+      margin-bottom: 140px
+    &:nth-child(odd)
+      .entry-thumbnail-side
+        order: 1
+    &.category-news main
+      background: $brown
+        
+    &.category-job-listing main
+      background: $blue

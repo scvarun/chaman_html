@@ -23,12 +23,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #007bff;
+  --blue: #20234c;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
-  --orange: #fd7e14;
+  --orange: #ec633c;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
@@ -7438,7 +7438,7 @@ h6, .h6 {
  * --------------------
  */
 .header-overlay .content-wrapper {
-  padding-top: 200px; }
+  padding-top: calc(200px + 40px); }
 
 .navbar > .container > .row,
 .navbar > .container-fluid > .row {
@@ -7455,7 +7455,11 @@ h6, .h6 {
   transition: all 0.2s ease-in-out; }
   #main-navbar .navbar-brand img {
     max-height: 100px;
+    opacity: 1;
     transition: all 0.2s ease-in-out; }
+    #main-navbar .navbar-brand img:not(.regular-logo) {
+      display: none;
+      opacity: 0; }
   #main-navbar .main-navigation .nav-item {
     padding: 0 2em; }
   #main-navbar .main-navigation .nav-link {
@@ -7469,6 +7473,16 @@ h6, .h6 {
     height: calc(200px - 40px); }
     #main-navbar.js-is-sticky .navbar-brand img {
       max-height: calc(100px - 50px); }
+      #main-navbar.js-is-sticky .navbar-brand img.sticky-logo {
+        display: block;
+        opacity: 1; }
+      #main-navbar.js-is-sticky .navbar-brand img.sticky-logo ~ .regular-logo {
+        display: none;
+        opacity: 0; }
+
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  #main-navbar .main-navigation .nav-link {
+    font-size: 1.375rem; } }
 
 @media screen and (max-width: 992px) {
   #main-navbar .nav-container.active {
@@ -7495,6 +7509,11 @@ h6, .h6 {
  * Blog Styling
  * --------------------
  */
+.main-content .post main {
+  background: #ec633c;
+  padding: 70px 70px 80px;
+  margin: 0 5.2305%; }
+
 .main-content .post .entry-thumbnail-side {
   padding: 0;
   background-size: cover;
@@ -7530,9 +7549,16 @@ h6, .h6 {
   font-weight: bold;
   text-decoration: underline; }
 
+.main-content .post:not(:last-child) {
+  margin-bottom: 140px; }
+
+.main-content .post:nth-child(odd) .entry-thumbnail-side {
+  order: 1; }
+
 .main-content .post.category-news main {
-  background: #20234c;
-  padding: 70px 70px 80px;
-  margin: 0 5.2305%; }
+  background: #755c4e; }
+
+.main-content .post.category-job-listing main {
+  background: #20234c; }
 
 /*# sourceMappingURL=style.css.map */

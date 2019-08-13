@@ -4,7 +4,7 @@
  * --------------------
  */
 .header-overlay .content-wrapper
-  padding-top: $navbar-height
+  padding-top: calc(#{$navbar-height} + 40px)
 
 .navbar > .container > .row,
 .navbar > .container-fluid > .row
@@ -22,7 +22,11 @@
   .navbar-brand
     img
       max-height: $navbar-logo-height
+      opacity: 1
       transition: $transition-base
+      &:not(.regular-logo)
+        display: none
+        opacity: 0
   .main-navigation
     .nav-item
       padding: 0 2em
@@ -36,9 +40,20 @@
   &.js-is-sticky
     background: $secondary
     height: calc(#{$navbar-height} - 40px)
-    .navbar-brand img
-      max-height: calc(#{$navbar-logo-height} - 50px)
+    .navbar-brand
+      img
+        max-height: calc(#{$navbar-logo-height} - 50px)
+        &.sticky-logo
+          display: block
+          opacity: 1
+        &.sticky-logo ~ .regular-logo
+          display: none
+          opacity: 0
 
+@media screen and (min-width: map-get($grid-breakpoints, 'md')) and (max-width: 1400px)
+  #main-navbar
+    .main-navigation .nav-link
+      font-size: $font-size-base
 
 @media screen and (max-width: map-get($grid-breakpoints, 'lg'))
   #main-navbar

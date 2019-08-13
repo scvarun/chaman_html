@@ -1,5 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark sticky-wrapper" id="main-navbar" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
   <a href="index.php" class="navbar-brand">
+    <img src="assets/img/footer-small.png" class="sticky-logo" alt="" />
     <img src="assets/img/logo.png" class="regular-logo" alt="" />
   </a>
 
