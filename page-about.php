@@ -101,7 +101,6 @@ get_header($config);
           <a href="javascript:void(0);" class="btn btn-link" style="color: #e5e5e5; text-decoration: underline; font-weight: bold;">Read more</a>
         </div><!-- /.col-lg-7 -->
       </div><!-- /.row -->
-
     </div><!-- /.container-fluid -->
 
     <div class="container-fluid">
@@ -114,14 +113,151 @@ get_header($config);
         </div><!-- /.col-lg-7 -->
       </div><!-- /.row -->
 
-      <div class="row" style="margin-top: -20%;">
-        <div class="col">
-        </div><!-- /.col -->
+      <div class="row justify-content-center" style="margin-top: -35%;">
         <div class="col-2">
           <figure style="margin-left: -100px;">
             <img src="assets/demo/about/logo-part-4.png" alt="" />
           </figure>
         </div><!-- /.col-2 -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8" style="z-index: 2">
+          <h6 style="text-transform: uppercase; margin-bottom: 20px">The Building</h6>
+          <h2>The instructional approach is a blend of classroom teaching and project based learning.</h2>
+        </div><!-- /.col-lg-8 -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+
+    <div class="container-fluid" style="padding: 0; margin-top: -25%; margin-bottom: 80px">
+      <div class="row no-gutters justify-content-end">
+        <div class="col-lg-7">
+          <figure>
+            <img src="assets/demo/about/building.jpg" alt="" />
+          </figure>
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+
+    <div class="container-fluid" style="margin-bottom: 110px;">
+      <div class="row">
+        <div class="col-lg-7">
+          <p style="font-size: 30px; line-height: 40px; font-weight: normal">It is about enhancing one's own personal ability to give  direction to one's own life on a meaning path. We have zoned in on these 5 major elements that contribute towards realizing the leadership potential in each child.</p>
+        </div><!-- /.col-lg-7 -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+
+    <div class="container-fluid" style="margin-bottom: 15.168%">
+      <div class="row">
+        <div class="col">
+          <blockquote class="row testimonial testimonial-right">
+            <div class="col-lg-7">
+              <h3 class="testimonial-title">"We had the individual student's potential in mind."</h3>
+              <h6 class="testimonial-user-info">
+                <span class="testimonial-user-name">Mies Ron Dehr Rohe</span> --
+                <span class="testimonial-user-title">Architect</span>
+              </h6>
+              <p>Suspendisse potenti. Proin at lectus condimentum, aliquam justo ac, suscipit urna. Proin at ligula porta lacus tempus ullamcorper. Nunc lacus neque, tempor vitae risus eget, porta frigilla nibh.</p>
+            </div><!-- /.col-lg-7 -->
+
+            <div class="col-lg-5">
+              <figure>
+                <img src="assets/demo/about/testimonial.jpg" alt=">Albert White - Music Teacher" />
+              </figure>
+            </div><!-- /.col-lg-5 -->
+          </blockquote><!-- /.testimonial -->
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+
+    <div class="container-fluid" style="margin-bottom: 40px;">
+      <div class="row">
+        <div class="col-lg-7">
+          <h6 style="text-transform: uppercase; margin-bottom: 20px">Meet the team</h6>
+          <h2>Principal's Office.</h2>
+        </div><!-- /.col-lg-6 -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          
+          <div class="team-members row">
+            <div class="col-lg-4">
+              <div class="team-member-single">
+                <figure>
+                  <img src="assets/demo/about/team-members/team-1.jpg" />
+                </figure>
+                <div class="team-member-content">
+                  <h5 class="team-member-name">Name Surname</h5>
+                  <p class="team-member-title">Principal</p>
+                  <p>Proin at lectus condimentum, aliquam justo ac, suscipit urna. Proin at ligula prota lacus tempus ullamcorper. Nunc lacus neque, tempor vitae risus eget, porta fringilla</p>
+                </div><!-- /.team-member-content -->
+              </div><!-- /.team-member-single -->
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4">
+              <div class="team-member-single">
+                <figure>
+                  <img src="assets/demo/about/team-members/team-2.jpg" />
+                </figure>
+                <div class="team-member-content">
+                  <h5 class="team-member-name">Name Surname</h5>
+                  <p class="team-member-title">Principal</p>
+                  <p>Proin at lectus condimentum, aliquam justo ac, suscipit urna. Proin at ligula prota lacus tempus ullamcorper. Nunc lacus neque, tempor vitae risus eget, porta fringilla</p>
+                </div><!-- /.team-member-content -->
+              </div><!-- /.team-member-single -->
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4">
+              <div class="team-member-single">
+                <figure>
+                  <img src="assets/demo/about/team-members/team-3.jpg" />
+                </figure>
+                <div class="team-member-content">
+                  <h5 class="team-member-name">Name Surname</h5>
+                  <p class="team-member-title">Principal</p>
+                  <p>Proin at lectus condimentum, aliquam justo ac, suscipit urna. Proin at ligula prota lacus tempus ullamcorper. Nunc lacus neque, tempor vitae risus eget, porta fringilla</p>
+                </div><!-- /.team-member-content -->
+              </div><!-- /.team-member-single -->
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.team-members -->
+
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+
+    <div class="container-fluid" style="padding-top: 130px">
+      <div class="row">
+        <div class="col">
+          <h2 style="margin-bottom: 40px">Leadership facilities</h2>
+
+          <div class="row">
+            <?php for($i=1; $i<=10; $i++): ?>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+              <div class="facilitator">
+                <figure style="">
+                  <img src="assets/demo/about/team-members/team-<?= $i ?>.jpg" alt="" />
+                </figure>
+                <span>Name Surname</span>
+                <span>Title</span>
+                <p><a href="#">Email me</a></p>
+              </div><!-- /.facilitators -->
+            </div><!-- /.col-lg-3 col-md-4 col-sm-6 -->
+            <?php endfor; ?>
+
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+
+    <div class="container-fluid" style="padding-top: 165px; padding-bottom: 165px;">
+      <div class="row">
+        <div class="col d-flex flex-column align-items-center">
+          <a href="javascript:void(0);" class="btn btn-outline-white text-center" style="z-index: 10; border-radius: 0; border-width: 3px; padding: 20px 5%; font-size: 30px">Show all facilitators...</a>
+        </div><!-- /.col -->
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
   </section>

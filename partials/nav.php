@@ -13,11 +13,11 @@
       <li class="menu-item nav-item active">
         <a class="nav-link" href="page-about.php">About</a>
       </li>
-      <li class="menu-item nav-item d-none">
-        <a class="nav-link" href="javascript:void(0);">Admission</a>
+      <li class="menu-item nav-item">
+        <a class="nav-link" href="page-admissions.php">Admission</a>
       </li>
-      <li class="menu-item nav-item d-none">
-        <a class="nav-link" href="javascript:void(0);">Leadership</a>
+      <li class="menu-item nav-item">
+        <a class="nav-link" href="page-leadership.php">Leadership</a>
       </li>
       <li class="menu-item nav-item">
         <a class="nav-link" href="page-stories.php">Stories</a>
@@ -38,10 +38,10 @@
         <a class="nav-link" href="page-about.php">About</a>
       </li>
       <li class="menu-item nav-item">
-        <a class="nav-link" href="javascript:void(0);">Admission</a>
+        <a class="nav-link" href="page-admissions.php">Admission</a>
       </li>
       <li class="menu-item nav-item">
-        <a class="nav-link" href="javascript:void(0);">Leadership</a>
+        <a class="nav-link" href="page-leadership.php">Leadership</a>
       </li>
       <li class="seperator"></li>
       <li class="menu-item nav-item">
