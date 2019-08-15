@@ -7580,17 +7580,17 @@ h6, .h6 {
   #main-navbar.navbar-dark .nav-toggle,
   #main-navbar.navbar-dark .navbar-nav .nav-link {
     color: #fff; }
-  #main-navbar.js-is-sticky {
+  #main-navbar.js-is-stuck, #main-navbar.js-is-sticky {
     background: #755c4e; }
-    #main-navbar.js-is-sticky .navbar-brand img {
+    #main-navbar.js-is-stuck .navbar-brand img, #main-navbar.js-is-sticky .navbar-brand img {
       max-height: 60px; }
-      #main-navbar.js-is-sticky .navbar-brand img.sticky-logo {
+      #main-navbar.js-is-stuck .navbar-brand img.sticky-logo, #main-navbar.js-is-sticky .navbar-brand img.sticky-logo {
         display: block;
         opacity: 1; }
-      #main-navbar.js-is-sticky .navbar-brand img.sticky-logo ~ .regular-logo {
+      #main-navbar.js-is-stuck .navbar-brand img.sticky-logo ~ .regular-logo, #main-navbar.js-is-sticky .navbar-brand img.sticky-logo ~ .regular-logo {
         display: none;
         opacity: 0; }
-  #main-navbar.js-is-sticky--change {
+  #main-navbar.js-is-stuck, #main-navbar.js-is-sticky--change {
     height: 120px; }
 
 @media screen and (min-width: 768px) and (max-width: 1400px) {
