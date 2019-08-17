@@ -7365,6 +7365,9 @@ ul, ol, dl {
   * {
     word-wrap: break-word; } }
 
+.elementor-text-widget p:last-child {
+  margin-bottom: 0; }
+
 /*
  * --------------------
  * Typography
