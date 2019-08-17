@@ -62,16 +62,16 @@ get_header($config);
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
 
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-top: -4.5%">
       <div class="row no-gutters">
-        <div class="col-5" style="z-index: 0">
+        <div class="col-4" style="z-index: 0">
           <figure style="margin-left: -100px;">
             <img src="assets/demo/about/logo-part-2.png" alt="" />
           </figure>
-        </div><!-- /.col-lg-7 -->
+        </div><!-- /.col-4 -->
       </div><!-- /.row -->
 
-      <div class="row"  style="margin-top: -27.593%;">
+      <div class="row"  style="margin-top: -27.593%; padding-bottom: 20px;">
         <div class="col-lg-7">
           <h1 style="color: #e5e5e5; text-transform: uppercase; margin-bottom: 30px">We<br />Learn</h1>
           <p style="color: #e5e5e5;">Duis ut tellus aliquam augue dapibus interdum eget iaculis eros. Nam sed tincidunt lectus, eget porta enim. Sed vehicula porta lacinia. Nam quis dapibus quam venenatis pellentesque sit amet at mauris.</p>
@@ -93,7 +93,7 @@ get_header($config);
         </div><!-- /.col-lg-2 -->
       </div><!-- /.row -->
 
-      <div class="row justify-content-end" style="margin-top: -27%">
+      <div class="row justify-content-end" style="margin-top: -25.938%; padding-bottom: 180px;">
         <div class="col-lg-7">
           <h1 style="color: #e5e5e5; text-transform: uppercase; margin-bottom: 30px">We<br />Learn</h1>
           <p style="color: #e5e5e5;">Duis ut tellus aliquam augue dapibus interdum eget iaculis eros. Nam sed tincidunt lectus, eget porta enim. Sed vehicula porta lacinia. Nam quis dapibus quam venenatis pellentesque sit amet at mauris.</p>
@@ -112,10 +112,12 @@ get_header($config);
           <a href="javascript:void(0);" class="btn btn-link" style="color: #e5e5e5; text-decoration: underline; font-weight: bold;">Read more</a>
         </div><!-- /.col-lg-7 -->
       </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
 
-      <div class="row justify-content-center" style="margin-top: -35%;">
-        <div class="col-2">
-          <figure style="margin-left: -100px;">
+    <div class="container-fluid" style="margin-top: -35%;">
+      <div class="row justify-content-center">
+        <div class="col-3" style="margin-left: 60px;">
+          <figure>
             <img src="assets/demo/about/logo-part-4.png" alt="" />
           </figure>
         </div><!-- /.col-2 -->

@@ -12,10 +12,10 @@ get_header($config);
 <div class="content-wrapper">
   <section id="home__hero" class="d-flex align-items-stretch" style="background: url('assets/demo/home/hero.jpg'); background-size: cover; min-height: 100vh;">
     <div class="container-fluid flex-1">
-      <div class="row justify-content-center align-items-center h-100">
-        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center" style="height: 400px;">
-          <figure style="height: 100vh; max-height: 400px; margin-bottom: 0">
-            <svg style="height: 400px" id="CHAMAN_LOGO_SVG" xmlns="http://www.w3.org/2000/svg" width="1536" height="854.312" viewBox="0 0 1536 854.312">
+      <div class="row justify-content-center align-items-end h-100">
+        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-end" style="height: 500px;">
+          <figure style="height: 80%; max-height: 500px; margin-bottom: 25%">
+            <svg style="height: 100%" id="CHAMAN_LOGO_SVG" xmlns="http://www.w3.org/2000/svg" width="1536" height="854.312" viewBox="0 0 1536 854.312">
               <g id="Group_8" data-name="Group 8" transform="translate(-120.001 -41.796)">
                 <g id="Group_9" data-name="Group 9" transform="translate(120.001 41.796)">
                   <rect id="Rectangle_17" data-name="Rectangle 17" width="255.187" height="838.285" transform="translate(866.603 9.865)" fill="#eda297"/>

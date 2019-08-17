@@ -11,20 +11,20 @@
 
   <div class="nav-container d-none d-lg-block">
     <ul class="navbar-nav main-navigation">
-      <li class="menu-item nav-item active">
-        <a class="nav-link" href="page-about.php">About</a>
+      <li class="menu-item active">
+        <a href="page-about.php">About</a>
       </li>
-      <li class="menu-item nav-item">
-        <a class="nav-link" href="page-admissions.php">Admission</a>
+      <li class="menu-item">
+        <a href="page-admissions.php">Admission</a>
       </li>
-      <li class="menu-item nav-item">
-        <a class="nav-link" href="page-leadership.php">Leadership</a>
+      <li class="menu-item">
+        <a href="page-leadership.php">Leadership</a>
       </li>
-      <li class="menu-item nav-item">
-        <a class="nav-link" href="page-stories.php">Stories</a>
+      <li class="menu-item">
+        <a href="page-stories.php">Stories</a>
       </li>
-      <li class="menu-item nav-item">
-        <a class="nav-link" href="page-career.php">Career</a>
+      <li class="menu-item">
+        <a href="page-career.php">Career</a>
       </li>
     </ul>
   </div><!-- /.nav-container -->
@@ -35,21 +35,21 @@
     </a>
 
     <ul class="navbar-nav main-navigation">
-      <li class="menu-item nav-item active">
-        <a class="nav-link" href="page-about.php">About</a>
+      <li class="menu-item active">
+        <a href="page-about.php">About</a>
       </li>
-      <li class="menu-item nav-item">
-        <a class="nav-link" href="page-admissions.php">Admission</a>
+      <li class="menu-item">
+        <a href="page-admissions.php">Admission</a>
       </li>
-      <li class="menu-item nav-item">
-        <a class="nav-link" href="page-leadership.php">Leadership</a>
+      <li class="menu-item">
+        <a href="page-leadership.php">Leadership</a>
       </li>
       <li class="seperator"></li>
-      <li class="menu-item nav-item">
-        <a class="nav-link" href="page-stories.php">Stories</a>
+      <li class="menu-item">
+        <a href="page-stories.php">Stories</a>
       </li>
-      <li class="menu-item nav-item">
-        <a class="nav-link" href="page-career.php">Career</a>
+      <li class="menu-item">
+        <a href="page-career.php">Career</a>
       </li>
     </ul>
   </div><!-- /.nav-container -->
