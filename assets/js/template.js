@@ -1,6 +1,9 @@
 (function($) {
   'use strict';
 
+  if( window.lodash === undefined )
+    window.lodash = _.noConflict();
+
   var Unifato = {
     init: function() {
       this.header();
@@ -20,7 +23,7 @@
 
     enableNavToggle: function() {
       var navToggles = document.getElementsByClassName('nav-toggle');
-      _.each(navToggles, function(navToggle) {
+      lodash.each(navToggles, function(navToggle) {
         var target = document.querySelector(navToggle.dataset.target);
         navToggle.addEventListener('click', function(e) {
           e.preventDefault();
