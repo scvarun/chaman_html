@@ -2,7 +2,7 @@
   <a href="index.php" class="navbar-brand">
     <img src="assets/img/footer-small.png" class="sticky-logo" alt="" />
     <img src="assets/img/footer-small.png" class="mobile-logo" alt="" />
-    <img src="assets/img/logo.png" class="regular-logo" alt="" />
+    <img src="assets/img/logo.png" class="default-logo" alt="" />
   </a>
 
   <a href="javascript:void(0);" class="nav-toggle d-block d-lg-none" data-target="#navigation-1">
