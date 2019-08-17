@@ -68,3 +68,9 @@
 .absolute-center
   @extend %vertical-center, %horizontal-center;
   transform: translate(-50%, -50%)
+
+@each $grid, $value in $grid-breakpoints
+  visible-#{$grid}
+    visibility: visible
+  invisible-#{$grid}
+    visibility: invisible

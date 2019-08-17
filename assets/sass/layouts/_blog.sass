@@ -7,9 +7,10 @@
 .main-content
   .post
     main
-      background: $orange
-      padding: 70px 70px 80px
       margin: 0 5.2305%
+      .post-content
+        background: $orange
+        padding: 70px 7.35% 80px
       .post-categories
         list-style: none
         padding: 0
@@ -33,7 +34,7 @@
         margin: 0
         width: 100%
     .entry-thumbnail
-      margin: -70px -70px 80px
+      margin-bottom: 0
       a
         @include position(absolute, 0)
         opacity: 0
@@ -59,10 +60,9 @@
     &:nth-child(odd)
       .entry-thumbnail-side
         order: 1
-    &.category-news main
+    &.category-news main .post-content
       background: $brown
-        
-    &.category-job-listing main
+    &.category-job-listing main .post-content
       background: $blue
   > footer
     display: flex
@@ -75,6 +75,8 @@
     background: $orange
   .main-content
     padding-top: 40px
+    .entry-thumbnail
+      margin-bottom: 40px
     .post
       main
         background: none

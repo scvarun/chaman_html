@@ -27,7 +27,7 @@ get_header($config);
     </div><!-- /.container-fluid -->
 
     <div class="container-fluid" style="padding: 0">
-      <div class="row no-gutters" style="margin-top: -300px">
+      <div class="row no-gutters" style="margin-top: -15.7488%">
         <div class="col-lg-7" style="z-index: 0;">
           <figure>
             <img src="assets/demo/about/title.jpg" alt="" />
@@ -46,7 +46,7 @@ get_header($config);
 
       <div class="row justify-content-center">
         <div class="col-10 d-flex flex-column align-items center">
-          <figure style="margin-top: -130px;">
+          <figure style="margin-top: -8.74%;">
             <img src="assets/demo/about/logo-part-1.png" alt="" />
           </figure>
         </div><!-- /.col -->
@@ -172,12 +172,17 @@ get_header($config);
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
 
-    <div class="container-fluid" style="margin-bottom: 40px;">
+    <div class="container-fluid" style="margin-bottom: 50px;">
       <div class="row">
         <div class="col-lg-7">
           <h6 style="text-transform: uppercase; margin-bottom: 20px">Meet the team</h6>
-          <h2>Principal's Office.</h2>
-        </div><!-- /.col-lg-6 -->
+          <h2 style="margin-bottom: 50px">Principal's Office.</h2>
+        </div><!-- /.col-lg-7 -->
+        <div class="col-lg-5 d-block d-lg-flex justify-content-end align-items-center">
+          <a href="#team-members-1" class="slider-arrow-next">
+            <img src="assets/demo/home/slider-arrow.png" alt="" />
+          </a>
+        </div><!-- /.col-lg-5 -->
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
 
@@ -185,7 +190,8 @@ get_header($config);
       <div class="row">
         <div class="col">
           
-          <div class="team-members row">
+          <div id="team-members-1" class="team-members row">
+            <?php for($i=1; $i<=3; $i++): ?>
             <div class="col-lg-4">
               <div class="team-member-single">
                 <figure>
@@ -224,6 +230,7 @@ get_header($config);
                 </div><!-- /.team-member-content -->
               </div><!-- /.team-member-single -->
             </div><!-- /.col-lg-4 -->
+            <?php endfor; ?>
           </div><!-- /.team-members -->
 
         </div><!-- /.col -->

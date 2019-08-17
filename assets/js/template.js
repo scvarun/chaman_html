@@ -9,6 +9,11 @@
       this.enablePlugins();
     },
 
+    /*
+     * ====================================
+     * Header
+     * ====================================
+     */
     header: function() {
       this.enableNavToggle();
     },
@@ -25,15 +30,27 @@
       })
     },
 
+    /*
+     * ====================================
+     * Sidebar
+     * ====================================
+     */
     sidebar: function() {
     },
 
+    /*
+     * ====================================
+     * Content
+     * ====================================
+     */
     content: function() {
       this.enableSmoothScroll();
+      this.enableSliderArrow();
+      this.enableSliders();
     },
 
     enableSmoothScroll: function() {
-      $('a').on('click', function(e) {
+      $('a:not(.slider-arrow-next):not(.slider-arrow-prev):not(.no-scroll)').on('click', function(e) {
         if( this.hash !== '' ) {
           e.preventDefault();
           var hash = this.hash;
@@ -46,8 +63,56 @@
       });
     },
 
+    enableSliders: function() {
+      var $blogposts = $('.blogpost-thumbs, .team-members');
+      if(!$blogposts.length) return;
+      var defaults = {
+        infinite: true,
+        arrows: false,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      };
+      $blogposts.each(function() {
+        var $blogpost = $(this);
+        var options = $blogpost.data('plugin-options');
+        options = $.extend({}, defaults, options);
+        $blogpost.slick(options);
+      });
+    },
+
+    enableSliderArrow: function() {
+      var $arrows = $('.slider-arrow-next, .slider-arrow-prev');
+      if(!$arrows.length) return;
+      $arrows.each(function() {
+        var $arrow = $(this);
+        $arrow.on('click', function(e) {
+          e.preventDefault();
+          if(this.hash !== '') {
+            var $slider = $(this.hash);
+            if(!$slider.length) return;
+            if(this.classList.contains('slider-arrow-next'))
+              $slider.slick('slickNext');
+            else if(this.classList.contains('slider-arrow-prev'))
+              $slider.slick('slickPrev');
+          }
+        });
+      });
+    },
     
-    
+    /*
+     * ====================================
+     * Plugins
+     * ====================================
+     */
     enablePlugins: function() {
       this.enableSticky();
     },
