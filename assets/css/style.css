@@ -7642,7 +7642,7 @@ h6, .h6 {
   .elementor-editor-active #navbar {
     pointer-events: none; }
   .admin-bar #navbar.js-is-stuck, .admin-bar #navbar.js-is-sticky {
-    top: 32px; }
+    top: 32px !important; }
 
 @media screen and (min-width: 1200px) and (max-width: 1599px) {
   #navbar .main-navigation .menu-item > a {
